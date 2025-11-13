@@ -1,0 +1,73 @@
+/* Main container */
+.login-container {
+  background-color: #f2f2f2;
+  width: 320px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Apply to all inputs EXCEPT checkbox */
+input:not([type="checkbox"]) {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Message styling */
+p {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Small spacing improvements for focus states */
+input:focus,
+button:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Disabled Effect */
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+
+
