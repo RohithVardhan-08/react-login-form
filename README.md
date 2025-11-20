@@ -7,17 +7,26 @@ A simple mini React project demonstrating:
 - Basic form validation
 - Dynamic styling
 
+### 🔗 Live Demo
+👉 https://rohithvardhan-08.github.io/react-login-form/
+
+### 🔑 Test Credentials
+To login successfully, use:
+Username: admin
+Password: 123
+
+
 ### 🧠 Features
 ✅ Login form with username & password  
-✅ Shows success/error message dynamically  
-✅ Button disabled until both fields filled  
-✅ Clean UI with CSS styling
+✅ Shows success/error messages dynamically  
+✅ Show/Hide Password functionality  
+✅ Clean UI with CSS styling  
 
 ### 🛠️ Tech Stack
-- React JS
+- React JS (Vite)
 - CSS
 
-### 🚀 How to Run
-1. Clone the repo  
-2. Run `npm install`  
-3. Start with `npm start`
+### 🚀 Run Locally
+```bash
+npm install
+npm run dev
