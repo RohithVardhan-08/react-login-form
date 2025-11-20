@@ -7,14 +7,13 @@ A simple mini React project demonstrating:
 - Basic form validation
 - Dynamic styling
 
-### 🔗 Live Demo
-👉 https://rohithvardhan-08.github.io/react-login-form/
-
 ### 🔑 Test Credentials
 To login successfully, use:
 Username: admin
 Password: 123
 
+### 🔗 Live Demo
+👉 https://rohithvardhan-08.github.io/react-login-form/
 
 ### 🧠 Features
 ✅ Login form with username & password  
